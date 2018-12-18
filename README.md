@@ -3,14 +3,14 @@
 Para rodar o servidor, execute o comando: 
 $ python manager.py runserver
 
-O acesso a pagina da web é feita atraves do link: http://127.0.0.1:8000/despesas-view \\
+O acesso a pagina da web é feita atraves do link: http://127.0.0.1:8000/despesas-view
 
 A aplicaçao possui uma API que permite acessar os dados e adicionar comentários.
-Para isso, utilize para acessar: \\
+Para isso, utilize para acessar: 
 
-$ curl -X GET http://127.0.0.1:8000/Despesas/ \\
+$ curl -X GET http://127.0.0.1:8000/Despesas/ 
 
-Para deletar um dado: \\
+Para deletar um dado: 
 
 $ curl -X DELETE --header "Accept: application/json" http://127.0.0.1:8000/Despesas/{id}
 
